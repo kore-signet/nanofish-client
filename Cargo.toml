@@ -18,7 +18,6 @@ defmt = "1.0.1"
 embassy-net-08 = { package = "embassy-net", version = "0.8.0", features = [
     "dns",
     "medium-ethernet",
-    "proto-ipv6",
     "tcp",
 ] }
 embassy-time-05 = { package = "embassy-time", version = "0.5.0" }
