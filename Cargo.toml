@@ -16,7 +16,6 @@ tls = ["dep:embedded-tls-018", "dep:rand_core_06", "dep:rand_chacha_03"]
 [dependencies]
 defmt = "1.0.1"
 embassy-net-08 = { package = "embassy-net", version = "0.8.0", features = [
-    "defmt",
     "dns",
     "medium-ethernet",
     "proto-ipv6",
